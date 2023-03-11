@@ -1,0 +1,38 @@
+$color_1: black;
+$background-color_1: #E1F2FE;
+$background-color_2: #B2B1CF;
+$background-color_3: #77625C;
+
+/*HEADER*/
+/* .btnHambur span {
+    background-image: url("../img/lineas.webp");
+} */
+
+/* CARROUSEL */
+.logo {
+	width: 150px;
+}
+.colorFondo {
+	background-color: $background-color_1;
+}
+.btnPropio {
+	background-color: $background-color_2;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+.navbar-toggler {
+	&:focus {
+		box-shadow: none;
+	}
+}
+.imgCarousel {
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+.textoCarousel {
+	color: $color_1;
+}
+
+
